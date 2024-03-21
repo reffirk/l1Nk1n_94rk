@@ -63,21 +63,21 @@ a img:hover{
   min-height: 783px;
 }
 #p2{
-  animation: loop 60s infinite ease-in-out;
+  animation: loop 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
   background-size: cover;
   min-height: 785px;
 }
 @keyframes loop{
-  5%{
+  0%{
     background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-2.jpg) no-repeat;
     background-size: cover;
   }
-  10%{
-    /*background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-3.jpg) no-repeat;*/
+  100%{
+    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-4.jpg) no-repeat;
     background-size: cover;
   }
-  15%{
-    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-4.jpg) no-repeat;
+  /*10%{
+    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-3.jpg) no-repeat;
     background-size: cover;
   }
   20%{
@@ -123,5 +123,5 @@ a img:hover{
   70%{
     background: #000;
     background-size: cover;
-  }
+  }*/
 }

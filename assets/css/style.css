@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  display: flexbox;
+  padding: 0;
+  margin: 0;
+}
+html{
+  background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%);
+  background-color: #000;
+}
+::selection{
+  background: #10606b;
+}
+::-moz-selection{
+  background: #10606b;
+}
+::marker{
+  color: #10606b;
+}
+.pg-home{
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+}
+#home{
+  background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-1.jpg) no-repeat;
+  background-size: cover;
+  min-height: 783px;
+}
+.nav__links{
+  list-style: none;
+}
+.nav__links li{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.nav__links li a{
+  color: #fff;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+.nav__links li a:hover{
+  color: #10606b;
+  transition: all 0.2s linear;
+  filter: brightness(1.5);
+}
+.l9{
+  height: 60px;
+}
+a img{
+  transition: all .2s linear;
+}
+a img:hover{
+  transition: all .2s linear;
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+#p1{
+  background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/lp/lp_band-1.jpg) no-repeat;
+  background-size: cover;
+  min-height: 783px;
+}
+#p2{
+  animation: loop 60s infinite ease-in-out;
+  background-size: cover;
+  min-height: 785px;
+}
+@keyframes loop{
+  5%{
+    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-2.jpg) no-repeat;
+    background-size: cover;
+  }
+  10%{
+    /*background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-3.jpg) no-repeat;*/
+    background-size: cover;
+  }
+  15%{
+    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-4.jpg) no-repeat;
+    background-size: cover;
+  }
+  20%{
+    background: #000;
+    background-size: cover;
+  }
+  25%{
+    background: #000;
+    background-size: cover;
+  }
+  30%{
+    background: #000;
+    background-size: cover;
+  }
+  35%{
+    background: #000;
+    background-size: cover;
+  }
+  40%{
+    background: #000;
+    background-size: cover;
+  }
+  45%{
+    background: #000;
+    background-size: cover;
+  }
+  50%{
+    background: #000;
+    background-size: cover;
+  }
+  55%{
+    background: #000;
+    background-size: cover;
+  }
+  60%{
+    background: #000;
+    background-size: cover;
+  }
+  65%{
+    background: #000;
+    background-size: cover;
+  }
+  70%{
+    background: #000;
+    background-size: cover;
+  }
+}

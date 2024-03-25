@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "bootstrap";
 *{
-  display: flexbox;
   padding: 0;
   margin: 0;
 }
@@ -72,15 +72,15 @@ a img:hover{
     background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-2.jpg) no-repeat;
     background-size: cover;
   }
-  100%{
+  50%{
     background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-4.jpg) no-repeat;
     background-size: cover;
   }
-  /*10%{
-    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-3.jpg) no-repeat;
+  100%{
+    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-5.jpg) no-repeat;
     background-size: cover;
   }
-  20%{
+  /*20%{
     background: #000;
     background-size: cover;
   }

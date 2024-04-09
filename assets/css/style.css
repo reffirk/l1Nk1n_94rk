@@ -57,30 +57,30 @@ a img:hover{
   transform: scale(1.1);
   filter: brightness(1.1);
 }
+/*
 #p1{
-  background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/lp/lp_band-1.jpg) no-repeat;
+  background: loop 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55) linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/lp/lp_band-1.jpg) no-repeat;
   background-size: cover;
   min-height: 783px;
-}
-#p2{
-  animation: loop 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
-  background-size: cover;
-  min-height: 785px;
 }
 @keyframes loop{
   0%{
     background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-2.jpg) no-repeat;
     background-size: cover;
   }
-  50%{
+  5%{
     background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-4.jpg) no-repeat;
     background-size: cover;
   }
-  100%{
+  10%{
     background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../content/imgs/bg/lp_bg-5.jpg) no-repeat;
     background-size: cover;
   }
-  /*20%{
+  15%{
+    background: #000;
+    background-size: cover;
+  }
+  20%{
     background: #000;
     background-size: cover;
   }
@@ -104,10 +104,6 @@ a img:hover{
     background: #000;
     background-size: cover;
   }
-  50%{
-    background: #000;
-    background-size: cover;
-  }
   55%{
     background: #000;
     background-size: cover;
@@ -123,5 +119,6 @@ a img:hover{
   70%{
     background: #000;
     background-size: cover;
-  }*/
+  }
 }
+*/
